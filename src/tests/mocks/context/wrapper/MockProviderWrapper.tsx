@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { IColor } from '../../../../themes/IColor';
 import { IMockLoaderProviderProps } from '../MockLoaderProvider';
 import { MockLoaderProviderWrapper } from './loader/MockLoaderProviderWrapper';
 import { MockThemeProviderWrapper } from './theme/MockThemeProviderWrapper';
@@ -8,7 +7,7 @@ import { MockThemeProviderWrapper } from './theme/MockThemeProviderWrapper';
 
 export interface IMockProviderWrapperProps {
 	loader?: IMockLoaderProviderProps,
-	theme?: IColor,
+	theme?: boolean,
 	children: React.ReactNode,
 }
 

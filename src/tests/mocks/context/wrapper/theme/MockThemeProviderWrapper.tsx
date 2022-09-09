@@ -6,7 +6,7 @@ import { IMockProviderWrapperProps } from '../MockProviderWrapper';
 export const MockThemeProviderWrapper = ({ theme, children }: IMockProviderWrapperProps) => {
 	if (theme) {
 		return (
-			<ThemeProvider {...theme}>
+			<ThemeProvider>
 				{children}
 			</ThemeProvider>
 		);
