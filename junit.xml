@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="1.552">
+  <testsuite name="useBookApi" errors="0" failures="0" skipped="0" timestamp="2022-09-09T08:06:45" time="0.613" tests="1">
+    <testcase classname="useBookApi getBook should works correctly" name="useBookApi getBook should works correctly" time="0.058">
+    </testcase>
+  </testsuite>
+  <testsuite name="useCharacterApi" errors="0" failures="0" skipped="0" timestamp="2022-09-09T08:06:45" time="0.613" tests="1">
+    <testcase classname="useCharacterApi getCharacter should works correctly" name="useCharacterApi getCharacter should works correctly" time="0.054">
+    </testcase>
+  </testsuite>
+  <testsuite name="ThemeProvider" errors="0" failures="0" skipped="0" timestamp="2022-09-09T08:06:45" time="1.122" tests="4">
+    <testcase classname="ThemeProvider should render children" name="ThemeProvider should render children" time="0.018">
+    </testcase>
+    <testcase classname="ThemeProvider should theme be set to default if local storage is empty" name="ThemeProvider should theme be set to default if local storage is empty" time="0.006">
+    </testcase>
+    <testcase classname="ThemeProvider should load theme from local storage" name="ThemeProvider should load theme from local storage" time="0.003">
+    </testcase>
+    <testcase classname="ThemeProvider should dispatch entity and update local storage" name="ThemeProvider should dispatch entity and update local storage" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="LoaderProvider" errors="0" failures="0" skipped="0" timestamp="2022-09-09T08:06:45" time="1.131" tests="3">
+    <testcase classname="LoaderProvider should render children" name="LoaderProvider should render children" time="0.01">
+    </testcase>
+    <testcase classname="LoaderProvider should display loader when loading" name="LoaderProvider should display loader when loading" time="0.016">
+    </testcase>
+    <testcase classname="LoaderProvider should stop rendering loader when unloading" name="LoaderProvider should stop rendering loader when unloading" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>
